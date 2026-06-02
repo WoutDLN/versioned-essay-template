@@ -28,7 +28,7 @@ jobs:
             --standalone \
             --metadata title="My Essay" \
             --css=https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown.min.css \
-            --css=assets/css/style.css
+            --css=assets/css/style.css \
             --output=index.html
 
           # Wrap content with GitHub-style container
