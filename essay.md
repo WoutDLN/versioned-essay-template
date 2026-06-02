@@ -16,11 +16,13 @@ In this template, you can format your text with markdown commands. Pretty much [
 This means, for example, that you can put text in _italics_, and in **bold**, and even ~~strike out~~ text if necessary. And you can also directly use `.html` tags in the text, like for <sup>supralinear text</sup>. You can also use the odd footnote[^1] if you please. 
 
 You can also use unordered lists:
+
 - item
 - item
 - item
 
 Or ordered lists:
+
 1. item
 2. item
 3. item
@@ -28,6 +30,7 @@ Or ordered lists:
 ### More specialist formatting
 
 You can even use checkboxes, although it may be tricky to find a good use case for this:
+
 - [ ] item
 - [x] item
 
