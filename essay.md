@@ -1,16 +1,16 @@
 # Dummy Essay
 
 ## Introduction 
-Lorem Ipsum.
+Lorem **Ipsum**.
 
 ## Literature Review
-Lorem Twipsum.
+Lorem _Twipsum_.
 
 ## Method
-Lorem Thripsum.
+Lorem *Thripsum*.
 
 ## Results
-Lorem Foupsum.
+Lorem Foupsum.[^1]
 
 ## Analysis
 Lorem Fipsum.
@@ -20,3 +20,6 @@ Lorem Sipsum.
 
 ## Conclusion
 Lorem Sepsum.
+
+---
+[^1]: footnote
