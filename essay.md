@@ -24,5 +24,4 @@ Lorem Sipsum.
 ## Conclusion
 Lorem Sepsum.
 
----
 [^1]: footnote
