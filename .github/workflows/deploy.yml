@@ -26,7 +26,7 @@ jobs:
         run: |
           pandoc essay.md \
             --standalone \
-            --template=template.html \
+            --template=assets/template/template.html \
             --output=index.html
 
           # Wrap content with GitHub-style container
