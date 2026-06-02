@@ -13,6 +13,7 @@ This is a simple template for writing an essay in markdown, that can be visualis
 In this template, you can format your text with markdown commands. Pretty much [all formatting rules that can be used in GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) should work out of the box here too. 
 
 ### Simple formatting
+
 This means, for example, that you can put text in _italics_, and in **bold**, and even ~~strike out~~ text if necessary. And you can also directly use `.html` tags in the text, like for <sup>supralinear text</sup>. You can also use the odd footnote[^1] if you please. 
 
 You can also use unordered lists:
@@ -27,12 +28,14 @@ Or ordered lists:
 2. item
 3. item
 
+Just don't forget to add an empty line before starting your list! 
+
 ### More specialist formatting
 
 You can even use checkboxes, although it may be tricky to find a good use case for this:
 
-- [ ] item
-- [x] item
+[ ] item
+[x] item
 
 And you can include write some inline `code`, or add a code block:
 ```
