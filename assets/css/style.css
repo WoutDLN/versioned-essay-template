@@ -3,7 +3,7 @@
 
 
 body {
-  background-color: #fdfcf9;
+  background-color: #f4f1ea;
   color: #2a2a2a;
   line-height: 1.75;
   font-size: 18px;
@@ -285,12 +285,11 @@ body {
   color: #999;
 }
 
-
-
 /* ===== Subtle polish ===== */
 
 ::selection {
-  background: #e8e2d8;
+  background: #faf9f6;
+  color: #000;
 }
 
 * {
