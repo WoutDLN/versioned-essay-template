@@ -252,6 +252,42 @@ body {
   margin-bottom: 2em;
 }
 
+/* ===== Site footer ===== */
+
+
+.site-footer {
+  margin-top: 4em;
+  padding-top: 2em;
+  border-top: 1px solid #ddd;
+
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+}
+
+
+.footer-links {
+  margin-top: 0.5em;
+}
+
+.footer-links a {
+  color: #7a0000;
+  text-decoration: underline dotted rgba(122, 0, 0, 0.35);
+  text-underline-offset: 3px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline dotted #7a0000;
+}
+
+.footer-meta {
+  margin-top: 0.5em;
+  font-size: 0.8em;
+  color: #999;
+}
+
+
+
 /* ===== Subtle polish ===== */
 
 ::selection {

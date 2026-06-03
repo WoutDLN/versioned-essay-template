@@ -19,6 +19,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Get last updated date
+        id: lastmod
+        run: |
+          echo "date=$(git log -1 --format=%cd --date=format:'%-d %B %Y')" >> $GITHUB_OUTPUT
+
       - name: Install Pandoc
         run: sudo apt-get update && sudo apt-get install -y pandoc
 
@@ -30,6 +35,10 @@ jobs:
             --citeproc \
             --csl=https://www.zotero.org/styles/apa \
             --toc \
+            --metadata last_updated="${{ steps.lastmod.outputs.date }}" \
+            --metadata repo_url="https://github.com/${{ github.repository }}" \
+            --metadata edit_url="https://github.com/${{ github.repository }}/blob/main/essay.md" \
+            --metadata repo_name="${{ github.repository }}" \
             --output=index.html
 
           # Wrap content with GitHub-style container
