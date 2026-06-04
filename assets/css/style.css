@@ -9,14 +9,21 @@ body {
   font-size: 18px;
 }
 
+.page {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);  
+  border-radius: 4px;
+  background: white;
+}
+
 .markdown-body {
   max-width: 720px;
   margin: 0 auto;
   padding: 3rem 2rem;
   font-family: "PT Serif", Georgia, serif;
   background: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
 }
 
 
