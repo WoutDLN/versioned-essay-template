@@ -18,15 +18,20 @@ This means, for example, that you can put text in _italics_, and in **bold**, an
 
 You can also use unordered lists:
 
-- item
-- item
-- item
+- ice
+- lemon
+- 2 oz gin
+- tonic
 
 Or ordered lists:
 
-1. item
-2. item
-3. item
+1. Add ice to a glass.
+2. Pour the gin over the ice.
+3. Top up with tonic.
+4. Cut a slice of lemon peel off the lemon.
+5. Squeeze the lemon oils out of the peel, into the tonic.
+6. Add the lemon peel to the glass.
+6. Enjoy!
 
 Just don't forget to add an empty line before starting your list! 
 
@@ -44,11 +49,23 @@ a code
 block
 ```
 
-### Images
+### Images and tables
 
 You can also include an image, with a caption, like this one:
 
 ![**Figure 1.** A graph to help people decide whether or not they should try to disturb me in my office depending on the urgency of their query. cc-by 4.0 Wout Dillen 2026](assets/img/knock-graph.jpg)
+
+Or you can add a table like so:
+
+: **Table 1.** Albums Wout likes to listen to while coding.
+
+|Artist|Album|Year|
+|------|-----|----|
+|Mel Brown|Chicken Fat|1969|
+|Ballaké Sissoko and Baba Sissoko|Sissoko & Sissoko|2019|
+|Shabaka and the Ancestors|We Are Sent Here By History|2020|
+|Alice Coltrane|The Carnegie Hall Concert (Live)|2024|
+|Kahlil El'Zabar|Spirit Groove: Golden Sea Duo in Shenzhen|2025|
 
 ### Quoting sources
 

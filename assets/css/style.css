@@ -307,6 +307,71 @@ figcaption {
   text-align: center;
 }
 
+/* ===== Tables ===== */
+
+caption {
+  font-size: 0.8em;
+  color: #555;
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.markdown-body table {
+  display: block;
+  width: fit-content;
+  border-collapse: collapse !important;
+  margin: 2em auto !important;
+  font-size: 0.95em !important;
+  max-width: 100% !important;
+}
+
+
+
+/* Remove heavy GitHub borders */
+.markdown-body table,
+.markdown-body th,
+.markdown-body td {
+  border: none !important;
+}
+
+/* Subtle horizontal rules only */
+.markdown-body thead tr {
+  border-bottom: 2px solid #7a0000 !important;
+}
+
+.markdown-body tbody tr {
+  border-bottom: 1px solid #ddd !important;
+}
+
+.markdown-body tbody tr:last-child {
+  border-bottom: none !important;
+}
+
+/* Cell spacing */
+.markdown-body th,
+.markdown-body td {
+  padding: 0.4em 0.6em !important;
+  text-align: left !important;
+}
+
+/* Header styling */
+.markdown-body th {
+  font-weight: 700 !important;
+  color: #7a0000 !important;
+}
+
+/* Align numbers nicely  */
+.markdown-body td {
+  vertical-align: top !important;
+}
+
+/* Subtle row striping  */
+.markdown-body tbody tr:nth-child(even) {
+  background-color: #faf9f6 !important;
+}
+
 /* ===== Subtle polish ===== */
 
 
