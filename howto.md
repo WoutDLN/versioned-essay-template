@@ -31,13 +31,17 @@ Pandoc works on most platforms, and in most cases installing the software is ver
 
 If you can't or are unwilling to install `pandoc` on your computer you can still use the template, but you will have to rely solely on GitHub Pages to visualise your essay, which is a somewhat less convenient workflow.
 
-### 0.2: Install a text editor (e.g., VSC)
+### 0.2: Install a text editor
 
 To use this template, you will need to write your essay in markdown (`.md`), and add your references in BibTeX[^2] (`.bib`). To write and edit files in these plain text formats, you will need a text editor. There are many different free and open source (as well as proprietary) available on all platforms, so just pick the one you're most comfortable with.
 
 If you are weighing options or looking for a recommendation, we suggest using [Visual Studio Code](https://code.visualstudio.com), which is free, open source, and available on all major platforms. It comes with some extension-aware syntax highlighting out of the box, and allows you to open a terminal right in the editor, which comes in handy when you are developing your essay locally and frequently running the `Makefile` to update its visualisation in the browser (step 3). It also comes with GitHub integration, so you can even check your version history and evaluate recent repository changes, commit, pull, and push – all from the text editor, without installing a dedicated GitHub development interface like GitHub Desktop (see step 0.3). 
 
 ### 0.3: Install a GitHub development interface (optional)
+
+[GitHub Desktop](https://desktop.github.com/download/) can be a useful tool to keep track of the changes you are making across multiple files in your git-initiated repositories; especially when you have several repositories to keep track of on your local device. It allows you to quickly switch repositories, inspect your latest changes as well as your longer versioning history, commit, push, and pull. If you have taken my introduction to GitHub course, you may already have this application installed on your device.
+
+Using GitHub Desktop is not a requirement to use this template, however. If you are using Visual Studio Code to edit your essay, you can also activate similar functionalities straight from the editor. And it is of course also always possible to run all git commands in your terminal.
 
 ## Step 1: Create and initiate your own copy of the template
 
